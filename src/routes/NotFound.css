@@ -1,0 +1,45 @@
+/* You can customize the styles according to your preference */
+.not-found-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f8f8f8;
+}
+
+.not-found-content {
+    text-align: center;
+}
+
+.not-found-title {
+    font-size: 8rem;
+    color: #ff4d4f;
+    margin: 0;
+}
+
+.not-found-message {
+    font-size: 2rem;
+    color: #262626;
+    margin: 10px 0;
+}
+
+.not-found-description {
+    font-size: 1rem;
+    color: #595959;
+    margin-bottom: 20px;
+}
+
+.not-found-home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #a49110;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.not-found-home-button:hover {
+    background-color: #b0a32e;
+}

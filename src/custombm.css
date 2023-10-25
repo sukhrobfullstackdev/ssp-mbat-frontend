@@ -1,0 +1,54 @@
+/*.ant-table-tbody .ant-table-row:nth-child(even),
+.ant-table-tbody .ant-table-row .ant-table-r-fix-left:nth-child(even),
+.ant-table-tbody .ant-table-row .ant-table-cell-ellipsis:nth-child(even){
+    background-color: rgb(238, 237, 228);
+}
+
+.ant-table-tbody > tr.ant-table-row:hover > td,
+.ant-table-tbody > tr > td.ant-table-cell-row-hover {
+    background-color: lightgray;
+}*/
+
+.table-striped-rows .ant-table-body tr:not(.ant-table-row-selected):nth-child(2n+1) td {
+    background-color: #fafafa;
+}
+.table-striped-rows .ant-table-body thead {
+    background-color: #f1f1f1;
+}
+
+.bm-input-number-align-right .ant-input-number-input {
+    text-align: end;
+    padding: 0 11px !important;
+}
+
+/*table-striped-rows table da fixed column bolsa orqazi prozrachniy bo'masligi uchun*/
+.table-striped-rows .ant-table-body tr td.ant-table-cell.ant-table-cell-fix-left {
+    opacity: 1;
+}
+
+.ant-table-wrapper.table-th-nobreak-word .ant-table-thead > tr > th {
+    overflow-wrap: normal;
+}
+
+.ant-descriptions-view tr.ant-descriptions-row th.ant-descriptions-item-label {
+    white-space: nowrap;
+}
+
+/*.ant-table-cell:not(.ant-table-cell-row-hower).quart1-color {
+    background-color: #76b2c5 !important;
+}*/
+
+.ant-table-cell.quart1-color {
+    background-color: #76b2c5 !important;
+}
+
+.ant-table-cell.quart2-color {
+    background-color: #becd79 !important;
+}
+
+.ant-table-cell.quart3-color {
+    background-color: #90c576 !important;
+}
+.ant-table-cell.quart4-color {
+    background-color: #eeb189 !important;
+}

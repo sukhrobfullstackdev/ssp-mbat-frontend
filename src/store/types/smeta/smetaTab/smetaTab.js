@@ -1,0 +1,1 @@
+export const SMETA_TAB = 'SMETA_TAB';

@@ -1,0 +1,207 @@
+.btn-grad {
+    background-image: linear-gradient(to right, #eacda3 0%, #d6ae7b  51%, #eacda3  100%);
+    /*margin: 10px;
+    padding: 15px 45px;*/
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.ant-layout-sider-trigger {
+    background-color: #262626 !important;
+}
+.logonav{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.logoSavdo{
+    /*background-image: url("../logosavdo.png");*/
+    background-image: url("../logosavdo2.png");
+    width: 45px;
+    height: 40px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: center;
+}
+
+
+.content-index {
+    background: rgb(29,174,215);
+    background: radial-gradient(circle, rgba(29,174,215,1) 20%, rgba(124,237,255,1) 60%, rgba(169, 225, 172) 100%) ;
+    background: white;
+    background-image: url("../12310.png");
+    background-image: url("../59689594x.png") !important;
+    background-size: initial !important;
+    background-position: right !important;
+    height: 100%;
+    width: 100%;
+    /*border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;*/
+
+    flex-grow:1;
+    padding: 24px;
+    min-height: 100%;
+    /*background: '#fff none repeat scroll 0% 0%'; */
+    overflow: auto;
+    position: relative
+}
+
+.footer-index {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:transparent;
+}
+
+.login-container-index {
+    flex: 1 1 30%;
+    border: 0 solid red;
+    height: 100%;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.svg-container {
+    flex: 1 1 50%;
+    border: 0px solid yellow;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+.logobm{
+    background-image: url("../loginbg2.jpg");
+    background-image: url("../loginbg3.svg");
+    background-image: url("../wawegold.png");
+    background-image: url("../12310.png");
+    background-image: url("../geometric_perspective_line_pattern_background.jpg");
+    background-image: url("../5968959.jpg");
+    background: transparent;
+    background-size: cover;
+    background-position: left;
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+}
+
+.svg-content {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: contain;
+}
+
+.logo-container {
+    /*background: url("../iconBook.png");*/
+    /*background: url("../bmlogo4.svg");*/
+    /*background-size: 150px 90px;*/
+    /*background-repeat: no-repeat;*/
+    position: absolute;
+    width: auto;
+    height: auto;
+    white-space: pre;
+    top: 35%;
+    left: 20%;
+    background: transparent;
+    /*transform: translate(-50%,-50%);*/
+}
+.logo-title h4, .logo-title h6{
+    width: auto;
+    white-space: pre;
+    font-size: 21px;
+    padding-left: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    color: #f6ffd6;
+    font-weight: normal;
+}
+
+
+.logo-img {
+    background: url("../bmlogo4.svg");
+    background-image: url("../new-relic-icon.svg");
+    background-image: url("../noysi.svg");
+    background-image: url("../jetbrains-space-icon.svg");
+    background-image: url("../Gold horizontal.png");
+
+    background-image: url("../Gold horizontal 2.png");
+    background-image: url("../Gold vertical 2.png");
+    background-image: url("../Gold vertical.png");
+
+
+
+
+    background-size: 500px 200px;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 200px;
+    display: inline-block;
+    clear: right;
+    float: left;
+}
+
+.logo-title h6{
+    font-size: 18px;
+    color: #e1e1e1;
+}
+.logo-title h6{
+    margin-top: -12px;
+}
+
+/*.login-eff {
+    background: url("../Untitled.svg");
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    display: block;
+    position: absolute;
+    z-index: 0;
+    bottom: -158px;
+    right: -199px;
+
+}*/
+
+.page-wrapper {
+    box-shadow: 0px 0px 16px 1px #2875c8;
+}
+
+.list{
+    display: flex;
+    padding: 6px 10px;
+}
+.list:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+.key {
+    flex: 0.4;
+    font-weight: normal;
+}
+.value {
+    flex: 0.6;
+    font-weight: bold;
+}

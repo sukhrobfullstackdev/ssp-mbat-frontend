@@ -1,0 +1,1 @@
+export const BANK_TYPE = 'BANK_TYPE';
